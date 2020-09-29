@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Dice Roller</string>
+    <string name="button_lancer">Lancer les dés</string>
+</resources>
