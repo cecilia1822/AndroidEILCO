@@ -60,6 +60,11 @@ public class MainActivity extends AppCompatActivity {
                 total3.setText(String.valueOf( nombre3 ));
 
 
+                    Toast toast = Toast.makeText(MainActivity.this, "Dé lancé!", Toast.LENGTH_SHORT);
+                    toast.show();
+
+
+
 
 
             }
