@@ -1,6 +1,7 @@
 package com.example.newslist;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -19,15 +20,40 @@ public class NewsActivity  extends AppCompatActivity {
         setTitle(getLocalClassName());
 
         //On déclare une variable bouton qui prend les caractéristiques du button avec l'id "button"
-        Button rollButton = (Button) findViewById(R.id.button);
+        Button rollButton1 = (Button) findViewById(R.id.buttondetail);
+
+        Button rollButton2 = (Button) findViewById(R.id.buttonlogout);
 
         // On donne à ce boutton une action quand on clique dessus
-        rollButton.setOnClickListener(new View.OnClickListener() {
+        rollButton1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(this, AutreActivity.class); startActivity(intent);
+                Intent intentdetail = new Intent(getApplicationContext(), DetailsActivity.class);
+                startActivity(intentdetail);
 
 
+            }
+        });
+
+        rollButton2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intentlogout = new Intent(getApplicationContext(), LoginActivity.class);
+                startActivity(intentlogout);
+
+
+            }
+        });
+
+        Button rollButton3 = (Button) findViewById(R.id.buttonSearch);
+
+        // On donne à ce boutton une action quand on clique dessus
+        rollButton3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                String url = "https://news.google.com/";
+                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
+                startActivity(intent);
             }
         });
     }

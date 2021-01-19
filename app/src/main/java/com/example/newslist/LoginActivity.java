@@ -1,6 +1,7 @@
 package com.example.newslist;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -22,10 +23,25 @@ public class LoginActivity extends AppCompatActivity {
         rollButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(this, NewsActivity.class); startActivity(intent);
+                Intent intent = new Intent(getApplicationContext(), NewsActivity.class);
+                startActivity(intent);
 
 
             }
         });
+
+
+
+
+
+
+
     }
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        finish();
+    }
+
 }
