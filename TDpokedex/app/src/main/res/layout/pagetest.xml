@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorPrimaryDark"
+    android:padding="8dp">
+    <ImageView
+        android:id="@+id/PokeImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+    </ImageView>
+
+
+    <TextView
+            android:id="@+id/PokeName"
+        android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:textColor="@color/white"
+        android:textSize="100sp"
+        android:text="@string/name"
+            tools:context=".pagetest" />
+    <TextView
+        android:id="@+id/PokeDesc"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="#000"
+        tools:context=".pagetest" />
+    <TextView
+        android:id="@+id/PokeSize"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="#000"
+        tools:context=".pagetest" />
+    <TextView
+        android:id="@+id/PokeWeight"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="#000"
+        tools:context=".pagetest" />
+    <TextView
+        android:id="@+id/PokeType"
+        android:textSize="25sp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="types"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:textColor="@color/white"
+        tools:context=".pagetest" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+
+
+
+
+
