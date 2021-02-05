@@ -65,11 +65,19 @@ public class PokemonListAdapter extends RecyclerView.Adapter<PokemonListAdapter.
                 Intent intent = new Intent(v.getContext(),PageTest.class);
                 intent.putExtra("Id",pokemon.getId() );
                 v.getContext().startActivity(intent);
-                // mettre variable de changement pour switch case
-                // int osef = 0;
+
 
             }
         });
+
+
+
+
+
+
+
+
+
 
 
     }

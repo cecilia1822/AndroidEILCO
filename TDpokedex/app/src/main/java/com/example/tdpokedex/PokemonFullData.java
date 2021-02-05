@@ -1,5 +1,7 @@
 package com.example.tdpokedex;
 
+import java.net.CookieHandler;
+import java.util.ArrayList;
 import java.util.List;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
@@ -11,23 +13,177 @@ public class PokemonFullData {
 
 
 
+
+
+
         /*Sérialiser un champ avec un nom différent au lieu d'un nom de champ réel*/
         @SerializedName("id")
         @Expose /* marque un champ à exposer ou non pour sérialisé ou désérialisé*/
-        private Integer id;
+
+        public Integer id;
         @SerializedName("name")
         @Expose
-        private String name;
+        public String name;
         @SerializedName("height")
         @Expose
-        private Integer height;
+        public Integer height;
         @SerializedName("weight")
         @Expose
-        private Integer weight;
-        /*private Object previous;*/
+        public Integer weight;
+
         @SerializedName("abilities")
         @Expose
-        private List<Pokemon> abilities = null;
+        public List<Pokemon> abilities = null;
+
+
+
+
+
+    public class Name{
+        public Language language;
+        public String name;
+    }
+
+
+
+
+    //pour les types des pokémons
+
+
+    public List<Type2> types;
+
+
+    public class Type{
+        public String name = null;
+        public String url = null;
+
+        @Override
+        public String toString(){
+            return name;
+
+        }
+
+
+    }
+
+
+    public class Type2{
+        public int slot = 0;
+        public Type type = null;
+
+        @Override
+        public String toString(){
+            return type.toString();
+
+        }
+
+    }
+
+
+// pour la description des pokémons
+
+    public class FlavorTextEntry {
+
+        public String flavor_text = null;
+        public Language language = null;
+        public Version version = null;
+
+        @Override
+        public String toString() {
+
+            return  flavor_text ;
+        }
+    }
+
+
+
+    public class Species {
+
+        @SerializedName("id")
+        @Expose
+        public Integer id;
+
+        public List<FlavorTextEntry> flavor_text_entries;
+
+        public String name = null;
+        public String url = null;
+
+
+        @Override
+        public String toString(){
+            return name;
+
+        }
+
+
+
+    }
+
+
+
+
+    public class Version{
+        public String name = null;
+        public String url = null;
+    }
+
+    public class Language{
+
+        public String url;
+        public String name;
+
+    }
+
+
+
+
+
+/*
+    public class EvolutionChain{
+        public String url;
+    }
+
+ */
+
+
+/*
+    public class Generation{
+        public String name;
+        public String url;
+    }
+
+  */
+
+    public class Pokedex{
+        public String name;
+        public String url;
+    }
+
+    public class PokedexNumber{
+        public int entry_number;
+        public Pokedex pokedex;
+    }
+
+
+    public class Pokemon{
+        public String name;
+        public String url;
+    }
+
+    public class Variety{
+        public boolean is_default;
+        public Pokemon pokemon;
+    }
+
+
+
+
+
+
+
+
+
+
 
     public Integer getId() {
         return id;
@@ -45,9 +201,6 @@ public class PokemonFullData {
         return weight;
     }
 
-    public List<Pokemon> getAbilities() {
-        return abilities;
-    }
 
     public void setId(Integer id) {
         this.id = id;
@@ -65,8 +218,10 @@ public class PokemonFullData {
         this.weight = weight;
     }
 
+
     public void setAbilities(List<Pokemon> abilities) {
         this.abilities = abilities;
     }
+
 
 }

@@ -37,7 +37,7 @@ public class PageTest extends AppCompatActivity {
         PokeDesc=findViewById(R.id.PokeDesc);
         PokeHeight=findViewById(R.id.PokeSize);
         PokeWeight=findViewById(R.id.PokeWeight);
-        PokeTypes=findViewById(R.id.PokeType);
+        PokeTypes=findViewById(R.id.PokeTypes);
         ImageView PokeImage = findViewById(R.id.PokeImage);
 
 
@@ -51,28 +51,62 @@ public class PageTest extends AppCompatActivity {
                 .build()
                 .create(JsonPlaceHolderAPI1.class);
 
-        jsonPlaceHolderAPI1.getDetails(Id).enqueue(new Callback<PokeDetail>() {
+        jsonPlaceHolderAPI1.getDetails(Id).enqueue(new Callback<PokemonFullData>() {
             @Override
-            public void onResponse(Call<PokeDetail> call, Response<PokeDetail> response) {
+            public void onResponse(Call<PokemonFullData> call, Response<PokemonFullData> response) {
                 assert response.body() != null;
-                PokeDetail detail = response.body();
+                PokemonFullData detail = response.body();
 
                 PokeName.setText(detail.name);
-                //PokeDesc.setText(detail.de);
-                //PokeHeight.setText(detail.height);
-                //PokeWeight.setText(detail.weight);
-                PokeTypes.setText(detail.types.toString());
+                //PokeDesc.setText(detail.flavor_text.toString());
+                PokeHeight.setText("Taille: "+detail.height.toString()+"m");
+                PokeWeight.setText("Poids: "+detail.weight.toString()+"kg");
+                PokeTypes.setText("Types: "+detail.types.toString());
                 Glide.with(PageTest.this).load("https://pokeres.bastionbot.org/images/pokemon/"+Id+".png").into(PokeImage);
                 Log.d("ezffzefzefze","feezfffffffffffffffffffffffffffffffffffffffffffff");
 
             }
             @Override
-            public void onFailure(Call<PokeDetail> call, Throwable t)
+            public void onFailure(Call<PokemonFullData> call, Throwable t)
             {
                 Log.d("ezffzefzefze","feezfffffffffffffffffffffffffffffffffffffffffffff");
             }
 
         });
+
+
+        jsonPlaceHolderAPI1.getSpecies(Id).enqueue(new Callback<PokemonFullData.Species>() {
+            @Override
+            public void onResponse(Call<PokemonFullData.Species> call, Response<PokemonFullData.Species> response) {
+                PokemonFullData.Species species = response.body();
+
+                for(PokemonFullData.FlavorTextEntry lang : species.flavor_text_entries){
+                    if(lang.language.name.equals("fr")){
+
+                        PokeDesc.setText(lang.flavor_text.replace("\n"," "));
+                        break;
+                    }
+
+
+                    PokeDesc.setText(species.flavor_text_entries.get(0).toString().replace("\n"," "));
+
+
+                }
+
+             /*PokeDesc.setText(species.flavor_text_entries.get(0).toString().replace("\n"," "));*/
+
+
+
+            }
+            @Override
+            public void onFailure(Call<PokemonFullData.Species> call, Throwable t)
+            {
+                Log.d("ezffzefzefze","feezfffffffffffffffffffffffffffffffffffffffffffff");
+            }
+
+        });
+
+
 
 
     }
