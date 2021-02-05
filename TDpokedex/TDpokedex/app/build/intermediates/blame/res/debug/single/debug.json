@@ -4,12 +4,20 @@
         "source": "D:\\ING 3 partie 2\\Android application mobile\\AndroidEILCO\\TDpokedex\\TDpokedex\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "D:\\ING 3 partie 2\\Android application mobile\\AndroidEILCO\\TDpokedex\\TDpokedex\\app\\build\\intermediates\\res\\merged\\debug\\layout_pagetest.xml.flat",
-        "source": "D:\\ING 3 partie 2\\Android application mobile\\AndroidEILCO\\TDpokedex\\TDpokedex\\app\\src\\main\\res\\layout\\pagetest.xml"
+        "merged": "D:\\ING 3 partie 2\\Android application mobile\\AndroidEILCO\\TDpokedex\\TDpokedex\\app\\build\\intermediates\\res\\merged\\debug\\drawable_arrondi8.xml.flat",
+        "source": "D:\\ING 3 partie 2\\Android application mobile\\AndroidEILCO\\TDpokedex\\TDpokedex\\app\\src\\main\\res\\drawable\\arrondi8.xml"
+    },
+    {
+        "merged": "D:\\ING 3 partie 2\\Android application mobile\\AndroidEILCO\\TDpokedex\\TDpokedex\\app\\build\\intermediates\\res\\merged\\debug\\drawable_arrondi6.xml.flat",
+        "source": "D:\\ING 3 partie 2\\Android application mobile\\AndroidEILCO\\TDpokedex\\TDpokedex\\app\\src\\main\\res\\drawable\\arrondi6.xml"
     },
     {
         "merged": "D:\\ING 3 partie 2\\Android application mobile\\AndroidEILCO\\TDpokedex\\TDpokedex\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
         "source": "D:\\ING 3 partie 2\\Android application mobile\\AndroidEILCO\\TDpokedex\\TDpokedex\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\ING 3 partie 2\\Android application mobile\\AndroidEILCO\\TDpokedex\\TDpokedex\\app\\build\\intermediates\\res\\merged\\debug\\layout_pagetest.xml.flat",
+        "source": "D:\\ING 3 partie 2\\Android application mobile\\AndroidEILCO\\TDpokedex\\TDpokedex\\app\\src\\main\\res\\layout\\pagetest.xml"
     },
     {
         "merged": "D:\\ING 3 partie 2\\Android application mobile\\AndroidEILCO\\TDpokedex\\TDpokedex\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
@@ -36,16 +44,44 @@
         "source": "D:\\ING 3 partie 2\\Android application mobile\\AndroidEILCO\\TDpokedex\\TDpokedex\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "D:\\ING 3 partie 2\\Android application mobile\\AndroidEILCO\\TDpokedex\\TDpokedex\\app\\build\\intermediates\\res\\merged\\debug\\layout_pokemonitem.xml.flat",
-        "source": "D:\\ING 3 partie 2\\Android application mobile\\AndroidEILCO\\TDpokedex\\TDpokedex\\app\\src\\main\\res\\layout\\pokemonitem.xml"
+        "merged": "D:\\ING 3 partie 2\\Android application mobile\\AndroidEILCO\\TDpokedex\\TDpokedex\\app\\build\\intermediates\\res\\merged\\debug\\drawable_arrondi10.xml.flat",
+        "source": "D:\\ING 3 partie 2\\Android application mobile\\AndroidEILCO\\TDpokedex\\TDpokedex\\app\\src\\main\\res\\drawable\\arrondi10.xml"
+    },
+    {
+        "merged": "D:\\ING 3 partie 2\\Android application mobile\\AndroidEILCO\\TDpokedex\\TDpokedex\\app\\build\\intermediates\\res\\merged\\debug\\drawable_arrondi3.xml.flat",
+        "source": "D:\\ING 3 partie 2\\Android application mobile\\AndroidEILCO\\TDpokedex\\TDpokedex\\app\\src\\main\\res\\drawable\\arrondi3.xml"
+    },
+    {
+        "merged": "D:\\ING 3 partie 2\\Android application mobile\\AndroidEILCO\\TDpokedex\\TDpokedex\\app\\build\\intermediates\\res\\merged\\debug\\drawable_arrondi5.xml.flat",
+        "source": "D:\\ING 3 partie 2\\Android application mobile\\AndroidEILCO\\TDpokedex\\TDpokedex\\app\\src\\main\\res\\drawable\\arrondi5.xml"
     },
     {
         "merged": "D:\\ING 3 partie 2\\Android application mobile\\AndroidEILCO\\TDpokedex\\TDpokedex\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
         "source": "D:\\ING 3 partie 2\\Android application mobile\\AndroidEILCO\\TDpokedex\\TDpokedex\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
     },
     {
+        "merged": "D:\\ING 3 partie 2\\Android application mobile\\AndroidEILCO\\TDpokedex\\TDpokedex\\app\\build\\intermediates\\res\\merged\\debug\\layout_pokemonitem.xml.flat",
+        "source": "D:\\ING 3 partie 2\\Android application mobile\\AndroidEILCO\\TDpokedex\\TDpokedex\\app\\src\\main\\res\\layout\\pokemonitem.xml"
+    },
+    {
+        "merged": "D:\\ING 3 partie 2\\Android application mobile\\AndroidEILCO\\TDpokedex\\TDpokedex\\app\\build\\intermediates\\res\\merged\\debug\\drawable_arrondi12.xml.flat",
+        "source": "D:\\ING 3 partie 2\\Android application mobile\\AndroidEILCO\\TDpokedex\\TDpokedex\\app\\src\\main\\res\\drawable\\arrondi12.xml"
+    },
+    {
         "merged": "D:\\ING 3 partie 2\\Android application mobile\\AndroidEILCO\\TDpokedex\\TDpokedex\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
         "source": "D:\\ING 3 partie 2\\Android application mobile\\AndroidEILCO\\TDpokedex\\TDpokedex\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "D:\\ING 3 partie 2\\Android application mobile\\AndroidEILCO\\TDpokedex\\TDpokedex\\app\\build\\intermediates\\res\\merged\\debug\\drawable_arrondi9.xml.flat",
+        "source": "D:\\ING 3 partie 2\\Android application mobile\\AndroidEILCO\\TDpokedex\\TDpokedex\\app\\src\\main\\res\\drawable\\arrondi9.xml"
+    },
+    {
+        "merged": "D:\\ING 3 partie 2\\Android application mobile\\AndroidEILCO\\TDpokedex\\TDpokedex\\app\\build\\intermediates\\res\\merged\\debug\\drawable_adn.png.flat",
+        "source": "D:\\ING 3 partie 2\\Android application mobile\\AndroidEILCO\\TDpokedex\\TDpokedex\\app\\src\\main\\res\\drawable\\adn.png"
+    },
+    {
+        "merged": "D:\\ING 3 partie 2\\Android application mobile\\AndroidEILCO\\TDpokedex\\TDpokedex\\app\\build\\intermediates\\res\\merged\\debug\\drawable_arrondi2.xml.flat",
+        "source": "D:\\ING 3 partie 2\\Android application mobile\\AndroidEILCO\\TDpokedex\\TDpokedex\\app\\src\\main\\res\\drawable\\arrondi2.xml"
     },
     {
         "merged": "D:\\ING 3 partie 2\\Android application mobile\\AndroidEILCO\\TDpokedex\\TDpokedex\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
@@ -56,6 +92,10 @@
         "source": "D:\\ING 3 partie 2\\Android application mobile\\AndroidEILCO\\TDpokedex\\TDpokedex\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
     {
+        "merged": "D:\\ING 3 partie 2\\Android application mobile\\AndroidEILCO\\TDpokedex\\TDpokedex\\app\\build\\intermediates\\res\\merged\\debug\\drawable_arrondi7.xml.flat",
+        "source": "D:\\ING 3 partie 2\\Android application mobile\\AndroidEILCO\\TDpokedex\\TDpokedex\\app\\src\\main\\res\\drawable\\arrondi7.xml"
+    },
+    {
         "merged": "D:\\ING 3 partie 2\\Android application mobile\\AndroidEILCO\\TDpokedex\\TDpokedex\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_foreground.png.flat",
         "source": "D:\\ING 3 partie 2\\Android application mobile\\AndroidEILCO\\TDpokedex\\TDpokedex\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_foreground.png"
     },
@@ -64,24 +104,36 @@
         "source": "D:\\ING 3 partie 2\\Android application mobile\\AndroidEILCO\\TDpokedex\\TDpokedex\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "D:\\ING 3 partie 2\\Android application mobile\\AndroidEILCO\\TDpokedex\\TDpokedex\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
-        "source": "D:\\ING 3 partie 2\\Android application mobile\\AndroidEILCO\\TDpokedex\\TDpokedex\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+        "merged": "D:\\ING 3 partie 2\\Android application mobile\\AndroidEILCO\\TDpokedex\\TDpokedex\\app\\build\\intermediates\\res\\merged\\debug\\drawable_arrondi11.xml.flat",
+        "source": "D:\\ING 3 partie 2\\Android application mobile\\AndroidEILCO\\TDpokedex\\TDpokedex\\app\\src\\main\\res\\drawable\\arrondi11.xml"
     },
     {
-        "merged": "D:\\ING 3 partie 2\\Android application mobile\\AndroidEILCO\\TDpokedex\\TDpokedex\\app\\build\\intermediates\\res\\merged\\debug\\raw_loadingscreen.json.flat",
-        "source": "D:\\ING 3 partie 2\\Android application mobile\\AndroidEILCO\\TDpokedex\\TDpokedex\\app\\src\\main\\res\\raw\\loadingscreen.json"
+        "merged": "D:\\ING 3 partie 2\\Android application mobile\\AndroidEILCO\\TDpokedex\\TDpokedex\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "D:\\ING 3 partie 2\\Android application mobile\\AndroidEILCO\\TDpokedex\\TDpokedex\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
     {
         "merged": "D:\\ING 3 partie 2\\Android application mobile\\AndroidEILCO\\TDpokedex\\TDpokedex\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
         "source": "D:\\ING 3 partie 2\\Android application mobile\\AndroidEILCO\\TDpokedex\\TDpokedex\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
     },
     {
+        "merged": "D:\\ING 3 partie 2\\Android application mobile\\AndroidEILCO\\TDpokedex\\TDpokedex\\app\\build\\intermediates\\res\\merged\\debug\\raw_loadingscreen.json.flat",
+        "source": "D:\\ING 3 partie 2\\Android application mobile\\AndroidEILCO\\TDpokedex\\TDpokedex\\app\\src\\main\\res\\raw\\loadingscreen.json"
+    },
+    {
         "merged": "D:\\ING 3 partie 2\\Android application mobile\\AndroidEILCO\\TDpokedex\\TDpokedex\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
         "source": "D:\\ING 3 partie 2\\Android application mobile\\AndroidEILCO\\TDpokedex\\TDpokedex\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
+        "merged": "D:\\ING 3 partie 2\\Android application mobile\\AndroidEILCO\\TDpokedex\\TDpokedex\\app\\build\\intermediates\\res\\merged\\debug\\drawable_arrondi.xml.flat",
+        "source": "D:\\ING 3 partie 2\\Android application mobile\\AndroidEILCO\\TDpokedex\\TDpokedex\\app\\src\\main\\res\\drawable\\arrondi.xml"
+    },
+    {
         "merged": "D:\\ING 3 partie 2\\Android application mobile\\AndroidEILCO\\TDpokedex\\TDpokedex\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_foreground.png.flat",
         "source": "D:\\ING 3 partie 2\\Android application mobile\\AndroidEILCO\\TDpokedex\\TDpokedex\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "D:\\ING 3 partie 2\\Android application mobile\\AndroidEILCO\\TDpokedex\\TDpokedex\\app\\build\\intermediates\\res\\merged\\debug\\drawable_arrondi4.xml.flat",
+        "source": "D:\\ING 3 partie 2\\Android application mobile\\AndroidEILCO\\TDpokedex\\TDpokedex\\app\\src\\main\\res\\drawable\\arrondi4.xml"
     },
     {
         "merged": "D:\\ING 3 partie 2\\Android application mobile\\AndroidEILCO\\TDpokedex\\TDpokedex\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",

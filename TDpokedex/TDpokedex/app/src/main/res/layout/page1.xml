@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Black"
+
+    android:padding="8dp">
+
+
+
+
+
+
+
+  <Button
+      android:id="@+id/button1"
+      android:layout_width="45dp"
+      android:layout_height="50dp"
+      android:text="Gen1"
+      android:textColor="#fff"
+
+      android:background="@drawable/adn"
+      app:layout_constraintLeft_toLeftOf="parent"
+
+
+
+      />
+
+  <Button
+        android:id="@+id/button2"
+        android:layout_width="45dp"
+        android:layout_height="50dp"
+        android:text="Gen2"
+        android:textColor="#fff"
+
+        android:layout_marginLeft="2dp"
+        android:background="@drawable/adn"
+        app:layout_constraintLeft_toRightOf="@id/button1"
+
+        />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="45dp"
+        android:layout_height="50dp"
+        android:text="Gen3"
+
+        android:textColor="#fff"
+        android:background="@drawable/adn"
+        android:layout_marginLeft="2dp"
+        app:layout_constraintLeft_toRightOf="@id/button2"
+
+        />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="45dp"
+        android:layout_height="50dp"
+        android:text="Gen4"
+
+        android:textColor="#fff"
+        android:background="@drawable/adn"
+
+        android:layout_marginLeft="2dp"
+        app:layout_constraintLeft_toRightOf="@id/button3"
+
+        />
+
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="45dp"
+        android:layout_height="50dp"
+        android:text="Gen5"
+
+        android:textColor="#fff"
+        android:background="@drawable/adn"
+        android:layout_marginLeft="2dp"
+        app:layout_constraintLeft_toRightOf="@id/button4"
+         />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="45dp"
+        android:layout_height="50dp"
+        android:text="Gen6"
+
+        android:textColor="#fff"
+        android:background="@drawable/adn"
+        android:layout_marginLeft="2dp"
+        app:layout_constraintLeft_toRightOf="@id/button5"
+
+
+        />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="45dp"
+        android:layout_height="50dp"
+        android:text="Gen7"
+
+
+        android:textColor="#fff"
+        android:background="@drawable/adn"
+        android:layout_marginLeft="2dp"
+        app:layout_constraintLeft_toRightOf="@id/button6"
+
+
+        />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="45dp"
+        android:layout_height="50dp"
+        android:text="Gen8"
+
+        android:textColor="#fff"
+        android:background="@drawable/adn"
+        android:layout_marginLeft="2dp"
+        app:layout_constraintRight_toRightOf="parent"
+
+
+        />
+
+
+
+
+
+
+
+  <androidx.recyclerview.widget.RecyclerView
+      android:id="@+id/recycler"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_marginTop="50dp"
+
+
+
+
+      >
+
+  </androidx.recyclerview.widget.RecyclerView>
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

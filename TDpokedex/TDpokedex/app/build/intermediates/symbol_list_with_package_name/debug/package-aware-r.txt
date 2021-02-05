@@ -1329,6 +1329,19 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable adn
+drawable arrondi
+drawable arrondi10
+drawable arrondi11
+drawable arrondi12
+drawable arrondi2
+drawable arrondi3
+drawable arrondi4
+drawable arrondi5
+drawable arrondi6
+drawable arrondi7
+drawable arrondi8
+drawable arrondi9
 drawable avd_hide_password
 drawable avd_show_password
 drawable btn_checkbox_checked_mtrl
@@ -1370,6 +1383,7 @@ drawable tooltip_frame_dark
 drawable tooltip_frame_light
 id ALT
 id CTRL
+id ColorType
 id FUNCTION
 id META
 id NO_DEBUG
@@ -1379,6 +1393,7 @@ id PokeName
 id PokeSize
 id PokeTypes
 id PokeWeight
+id PokedexNum
 id SHIFT
 id SHOW_ALL
 id SHOW_PATH
